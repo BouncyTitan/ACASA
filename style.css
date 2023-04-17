@@ -4,7 +4,7 @@
 }  
 
 html,body {
-    height: 100vh;
+    height: 80vh;
     margin: 0;
 }
 
@@ -12,6 +12,19 @@ html,body {
 .background-image {
     background-image: url("images/background.png");
   
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-image2 {
+    background-image: url("images/Subbackground.png");
+    
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -114,6 +127,7 @@ html,body {
 .ul_class1{
     background: #d4d4d4;
     text-align: left;
+    display: flex;
     margin: 1%;
     margin-right: 15%;
     border-radius: 3%;
@@ -205,4 +219,28 @@ html,body {
 
 .foto2{
     width: 200px;
+}
+
+.contact{
+    position: fixed;
+    top: 0%;
+    width: 5vh;
+}
+
+.contactimg{
+    margin-top: 25vh;
+    width: 15vh;
+}
+
+.ul3{
+    list-style: none;
+}
+
+.ul3class{
+    font-family: Inter;
+    margin: 15px;
+}
+
+.home{
+    width: 5vh;
 }
